@@ -19,7 +19,7 @@ jobs:
       - name: Configure CMake
         working-directory: ${{runner.workspace}}/build
         shell: bash
-        run: cmake $GITHUB_WORKSPCE -DCMAKE_BUILD_TYPE=$BUILD -DENABLE_COVERAGE=true
+        run: cmake $GITHUB_WORKSPACE -DCMAKE_BUILD_TYPE=$BUILD -DENABLE_COVERAGE=true
 
       - name: Build
         working-directory: ${{runner.workspace}}/build
