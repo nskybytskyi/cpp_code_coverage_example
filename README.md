@@ -11,3 +11,5 @@ Finally, the reports are uploaded to report hosting provider [Coveralls](https:/
 This work is based on an [excellent step-by-step tutorial](https://www.danielsieger.com/blog/2022/03/06/code-coverage-for-cpp.html) by Daniel Sieger.
 
 I dedicate this work to [public domain](LICENSE) with no restrictions whatsoever.
+
+[![Coverage Status](https://coveralls.io/repos/github/nskybytskyi/cpp_code_coverage_example/badge.svg?branch=main)](https://coveralls.io/github/nskybytskyi/cpp_code_coverage_example?branch=main)
